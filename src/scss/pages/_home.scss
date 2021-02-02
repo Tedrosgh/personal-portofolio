@@ -1,0 +1,49 @@
+.home {
+  background: url(../../images/cafe.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 0.1rem solid transparent;
+  border-radius: 50%;
+  margin: 2rem 0;
+
+  &__h {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: auto;
+    border-right: 0.1rem solid white;
+    animation: letter 6s 1s backwards infinite;
+    width: 13ch;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  &__hh {
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-weight: 700;
+    animation: move 6s alternate infinite;
+  }
+  @keyframes letter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 13ch;
+    }
+  }
+  @keyframes move {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(2);
+    }
+  }
+}
