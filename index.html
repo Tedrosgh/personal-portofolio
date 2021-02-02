@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>personal-portofolio</title>
+    <script
+      src="https://kit.fontawesome.com/9f75f9bfa3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="top top__m">
+            <a href="#"
+              ><img src="images/logo6.svg" alt="logo" width="30rem" />edros</a
+            >
+          </li>
+          <li class="top__m top__mm">
+            <label for="menu">
+            <i class="fas fa-bars fa-2x"></i></label>
+            <input type="checkbox" id="menu" name="menu">
+         
+            <ul class="top__men top__s">
+               <li class="top__menu__top">
+                <div class="top-div"><a href="#about">About</a></div>
+              </li>
+              <li class="top__menu__top">
+                <div class="top-div"><a href="#service">Services</a></div>
+              </li>
+
+              <li class="top__menu__top">
+                <div class="top-div"><a href="#contact">Contact</a></div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="home" id="home">
+        <h1 class="home__h">Web developer</h1>
+        <div class="home__hh"><h2>Tedros Ghebremichael</h2></div>
+      </div>
+      <div class="about">
+        <h1 id="about">About</h1>
+        <section class="backgr">
+          
+          
+          <div class="backgr__1">
+            <ul class="backgr__1--text">
+              <li>Born in Asmara city, Eritrea</li>
+              <li>BA degree in economics and finance</li>
+              <li>Universtity of Asmara, Eritrea</li>
+              <li>1996</li>
+            </ul>
+            <a href="https://en.wikipedia.org/wiki/University_of_Asmara" target="_blank" class="backgr__1--photo"
+              ><button>Asmara</button></a
+            >
+          </div>
+          <div class="backgr__2">
+            <ul class="backgr__2--text">
+              <li>MA in economics and finance</li>
+              <li>Stellenbosch Universtity, South Africa</li>
+              <li>2002</li>
+            </ul>
+            <a href="https://www.sun.ac.za/Home.aspx" target="_blank" class="backgr__2--photo"
+              ><button>Stelns</button></a
+            >
+          </div>
+          <div class="backgr__3">
+            <ul class="backgr__3--text">
+              <li>Web development</li>
+              <li>DCI digitalcareerinstitute, Germany  </li>
+                <li>Residence ddress: in Cologne, Germany</li>
+             
+              <li>2021</li>
+            </ul>
+            <a href="https://digitalcareerinstitute.org/" target="_blank" class="backgr__3--photo"><button>DCIdci</button></a>
+          </div>
+        </section>
+      </div>
+      <div class="serve" id="service">
+        <h1>Skills and projects</h1>
+        <h2>Skills</h2>
+        <ul class="service">
+          <li class="service__box">
+            HTML<i class="fab fa-html5 fa-2x"></i>60%
+          </li>
+          <li class="service__box">
+            CSS<i class="fab fa-css3-alt fa-2x"></i>65%
+          </li>
+          <li class="service__box">
+            Java Script<i class="fab fa-java fa-3x"></i></i>30%
+          </li>
+
+          <li class="service__box">
+            sql essentials<i class="fas fa-hourglass-half fa-spin"></i>30%
+          </li>
+          <li class="service__box">
+            python<i class="fab fa-python"></i>25%
+          </li>
+        </ul>
+        <h2>Projects</h2>
+        <ul class="service">
+          <li class="service__box">
+            Portfolio <a href="#"> <i class="fas fa-binoculars"></i></i></a>
+          </li>
+          <li class="service__box">
+            second project <a href="#"><i class="fas fa-binoculars"></i></a>
+          </li>
+          <li class="service__box">
+            third project<a href="#"><i class="fas fa-binoculars"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="address">
+        <address class="address_h">Vitalisstr. 29, 50827 Köln</address>
+        <p class="address_e">tedrosgh@yahoo.com</p>
+        <p class="address_t">+49 176 4521 7747</p>
+      </div>
+        <h2>If you have any question . . . </h2>
+        
+        <form action="https://formspree.io/f/mleovgbn" method="POST">
+          <label for="name">Full name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="please full name"
+            minlength="1"
+            required
+          />
+          <label for="email">email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Please enter your email"
+            minlength="5"
+            required
+          />
+          <label for="comment">Comment</label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Send me a message!"
+            minlength="1"
+            maxlength="500"
+          ></textarea>
+          <div>
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="bottom">Copyright &copy2021-tedros</div>
+      <div class="footer"><a href="https://github.com/Tedrosgh"> <i class="fab fa-github"></i></a></div>
+      <div class="footer"><a href="#"> LinkedIn</a></div>
+    </footer>
+    <!-- Custom scripts, edit above this line -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
