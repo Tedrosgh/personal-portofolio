@@ -35,7 +35,7 @@
       rgba(130, 130, 131, 1) 90%,
       rgba(3, 19, 1, 1) 90%
     ),
-    url(../../images/asmara.jpg) center / cover;
+    url(/images/asmara.jpg) center / cover;
   min-width: 40rem;
   min-height: 60vh;
   margin: 1rem;
@@ -86,7 +86,7 @@ button:visited {
       rgba(130, 130, 131, 1) 90%,
       rgba(3, 19, 1, 1) 90%
     ),
-    url(../../../images/stellenbosch.jpg) left / cover;
+    url(/images/stellenbosch.jpg) left / cover;
   min-height: 60vh;
   min-width: 40rem;
   display: flex;
@@ -103,7 +103,7 @@ button:visited {
       rgba(130, 130, 131, 1) 90%,
       rgba(3, 19, 1, 1) 90%
     ),
-    url(../../images/pc.png) center / cover;
+    url(/images/pc.png) center / cover;
   min-height: 60vh;
   min-width: 40rem;
   display: flex;
