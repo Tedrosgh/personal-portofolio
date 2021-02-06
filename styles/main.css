@@ -10063,7 +10063,7 @@ footer {
 }
 
 .home {
-  background: url(/images/cafe.jpeg);
+  background: url(../images/cafe.jpeg);
   background-position: bottom;
   background-size: cover;
   min-height: 100vh;
